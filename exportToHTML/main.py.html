@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">business_name</span><span class="s1">=</span><span class="s2">'yusuf &amp; sons'</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s0">business_name</span><span class="s1">)</span>
+<span class="s0">principal </span><span class="s1">= </span><span class="s0">float</span><span class="s1">(</span><span class="s0">input</span><span class="s1">(</span><span class="s2">'Enter amount: '</span><span class="s1">))</span>
+<span class="s0">time </span><span class="s1">= </span><span class="s0">float</span><span class="s1">(</span><span class="s0">input</span><span class="s1">(</span><span class="s2">'Enter time: '</span><span class="s1">))</span>
+<span class="s0">rate </span><span class="s1">= </span><span class="s0">float</span><span class="s1">(</span><span class="s0">input</span><span class="s1">(</span><span class="s2">'Enter rate: '</span><span class="s1">))</span>
+<span class="s0">simple_interest</span><span class="s1">=(</span><span class="s0">principal</span><span class="s1">*</span><span class="s0">time</span><span class="s1">*</span><span class="s0">rate</span><span class="s1">)/</span><span class="s3">100</span>
+<span class="s0">compound_interest</span><span class="s1">=</span><span class="s0">principal</span><span class="s1">*( (</span><span class="s3">1</span><span class="s1">+</span><span class="s0">rate</span><span class="s1">/</span><span class="s3">100</span><span class="s1">)**</span><span class="s0">time</span><span class="s1">-</span><span class="s3">1</span><span class="s1">)</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">'simple interest is : %f' </span><span class="s1">%(</span><span class="s0">simple_interest</span><span class="s1">))</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">'compound interest is : %f' </span><span class="s1">%(</span><span class="s0">compound_interest</span><span class="s1">))</span></pre>
+</body>
+</html>
